@@ -144,13 +144,13 @@ public class cadastroVIEW extends javax.swing.JFrame {
 
     private void btnCadastrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCadastrarActionPerformed
       
-         String nome = cadastroNome.getText();
+    String nome = cadastroNome.getText();
     String valor = cadastroValor.getText();
 
-    // Verificação se os campos estão vazios
+ 
     if (nome.isEmpty() || valor.isEmpty()) {
         JOptionPane.showMessageDialog(null, "Por favor, preencha todos os campos!");
-        return; // Sai do método para não tentar cadastrar
+        return;
     }
 
     try {
@@ -173,26 +173,11 @@ public class cadastroVIEW extends javax.swing.JFrame {
     
         
         
-        /* ProdutosDTO produto = new ProdutosDTO();
         
-        String nome = cadastroNome.getText();
-        String valor = cadastroValor.getText();
-        String status = "A Venda";
-        
-        produto.setNome(nome);
-        produto.setValor(Integer.parseInt(valor));
-        produto.setStatus(status);
-        
-        ProdutosDAO produtodao = new ProdutosDAO();
-        produtodao.cadastrarProduto(produto);
-        
-    
-        
-        cadastroNome.setText("");
-        cadastroValor.setText("");
+     
         
                 
-     */  
+      
     }
     }//GEN-LAST:event_btnCadastrarActionPerformed
 
