@@ -36,7 +36,6 @@ public class ProdutosDAO {
     }catch(Exception e){
         JOptionPane.showMessageDialog(null,"Erro ao cadastrar produto:" + e.getMessage());
     }
-        
     }
      public void venderProduto(int id) {
          
@@ -53,6 +52,7 @@ public class ProdutosDAO {
             JOptionPane.showMessageDialog(null, "Erro ao vender produto: " + e.getMessage());
         }
      }
+     
     
    public ArrayList<ProdutosDTO> listarProdutosVendidos() {
         ArrayList<ProdutosDTO> listaVendidos = new ArrayList<>();
