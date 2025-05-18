@@ -174,9 +174,7 @@ public class cadastroVIEW extends javax.swing.JFrame {
         
         
         
-     
         
-                
       
     }
     }//GEN-LAST:event_btnCadastrarActionPerformed
