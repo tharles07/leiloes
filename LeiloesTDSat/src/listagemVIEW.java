@@ -134,7 +134,7 @@ public class listagemVIEW extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnVenderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVenderActionPerformed
-    String Id = id_produto_venda.getText(); 
+    String Id = id_produto_venda.getText();
 
     if (!Id.isEmpty()) {
         try {
