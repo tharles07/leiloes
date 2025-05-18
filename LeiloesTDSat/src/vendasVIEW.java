@@ -38,6 +38,7 @@ public class vendasVIEW extends javax.swing.JFrame {
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, "Erro ao listar vendas: " + e.getMessage());
         }
+        
     }
 
     /**
